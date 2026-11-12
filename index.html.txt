@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ระบบเช็คอินงานอีเวนต์</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body, html { width: 100%; height: 100%; background-color: #f4f6f9; overflow: hidden; }
+        /* กำหนดให้ iframe เต็มหน้าจอมือถือพอดี */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- ฝัง URL /exec ของ Apps Script พร้อมระบุ allow="camera" อย่างชัดเจน -->
+    <iframe src="https://script.google.com/macros/s/AKfycbw7FmdY4sc5KToxlHu23jlMoa1QII38eiaiwib1ezZnUCQOAiFfcmps55VpWGwLCSfB/exec
+" 
+            allow="camera; microphone; display-capture; autoplay" 
+            allowfullscreen>
+    </iframe>
+</body>
+</html>
